@@ -8,10 +8,10 @@
   { "autoconf": {
     "name": "zmq_gen",
     "postinstall": "cp cppzmq/*.hpp $GEN_DIR/include",
-    "outs": [ "include/zmq.h",
-              "include/zmq.hpp",
-              "include/zmq_utils.h",
-              "lib/libzmq.a"
+    "outs": [ "$GEN_DIR/include/zmq.h",
+              "$GEN_DIR/include/zmq.hpp",
+              "$GEN_DIR/include/zmq_utils.h",
+              "$GEN_DIR/lib/libzmq.a"
     ],
     "input_files": [ "Makefile", "cppzmq/*.hpp", "src/*.cpp", "src/*.hpp" ]
   } },
