@@ -2,7 +2,8 @@
 [
   { "config": {
     "component": "zeromq",
-    "component_root": "$GEN_DIR/include"
+    "component_root": "$GEN_DIR/include",
+    "licenses": [ "http://opensource.org/licenses/gpl-3.0.html" ]
   } },
 
   { "autoconf": {
